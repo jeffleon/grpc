@@ -1,0 +1,3 @@
+protoc -Isum/proto --go_opt=module=github.com/jeffleon/grpc-go-course --go_out=. --go-grpc_opt=module=github.com/jeffleon/grpc-go-course --go-grpc_out=. sum/proto/sum.proto
+go build -o bin/sum/server ./sum/server
+go build -o bin/sum/client ./sum/client

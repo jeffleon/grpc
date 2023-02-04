@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"protoc": {
+			"path": "/usr/local/bin/protoc",
+			"compile_on_save": false,
+			"options": [
+				"--proto_path=protos/v3",
+				"--proto_path=protos/v2",
+				"--proto_path=${workspaceFolder}/proto",
+				"--proto_path=/Users/xiaorui.cc/go/src",
+				"--proto_path=/Users/xiaorui.cc/go/src/git.hualala.com/BasicCloudPlatform/hke-control/proto",
+			]
+		}
+	}
+
+}
